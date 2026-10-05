@@ -31,9 +31,44 @@ Added on 2026-09-28 (favicon.im provides cached site icons when the original hos
 - Gist Science: https://gist.science/ (inline SVG favicon, saved locally).
 - Moonlight: https://www.themoonlight.io/favicon.ico
 - Growbotics: https://robotics.growbotics.ai/favicon.svg
+- ArcXiv: https://arcxiv.org/favicon.svg
+- OpenTrain AI: https://favicon.im/opentrain.ai?larger=true (cached site icon; the direct favicon request timed out).
+- Paperlayer: https://paperlayer.ai/icon.svg?ebbb1e780311f558
+- CatalyzeX: https://www.catalyzex.com/favicon.ico (the original response is JPEG, saved as catalyzex.jpg).
+- Pith: https://pith.science/static/icons/pith-icon.svg (fixed the dark fill for the site's white icon background).
+- DeepPaper: https://arxiv.deeppaper.ai/icon.svg
+- AIModels.fyi: https://favicon.im/aimodels.fyi?larger=true (cached site icon; white artwork displayed on a dark background).
+- AI Papers: uses a local Lucide FileText icon; the official favicon is blocked by Cloudflare, and available caches return generic placeholders.
 - ResearchHub: https://www.researchhub.com/apple-icon.png
 - arXiv2MD: https://www.arxiv2md.org/static/favicons/favicon.ico?v=2
 - Reddit: https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png
 - Zhihu: https://static.zhihu.com/heifetz/favicon.ico
 - Action-Chunking-Survey: https://peaceful-world-x.github.io/Action-Chunking-Survey/assets/ace-chunk-spirit-transparent.png (resized for the footer).
 - LeRobot TraceLab: https://peaceful-world-x.github.io/LeRobot_TraceLab/assets/h01-tracelab-avatar-robot-transparent.png (resized for the footer).
+
+Added on 2026-10-05 (official artwork saved locally):
+
+- ScienceStack: https://www.sciencestack.ai/sciencestack_logo.png (official homepage logo, downloaded through Chromium because plain HTTP requests receive Vercel 429).
+- SummarizePaper: https://www.summarizepaper.com/static/summarizer/images/favicon.688753b96881.ico
+- Scholar Feed: https://www.scholarfeed.org/icon.svg?icon.2z33iobtp3xe3.svg
+- arXivMax: https://www.arxivmax.com/favicon.svg
+- ArxivLens: https://arxivlens.com/ (official inline `symbol#mark`, saved as a standalone SVG without changing its geometry; the advertised apple-touch icon returns 404).
+- searchthearXiv: https://searchthearxiv.com/static/favicon.png
+- Benty Fields: https://www.benty-fields.com/static/favicon/apple-icon-152x152.png
+- Discovery Daily: https://www.discovery-daily.com/_next/image?url=%2Flogo.png&w=96&q=75 (official image optimizer response, 96px WebP).
+- ggrxiv: https://favicon.im/ggrxiv.com?larger=true (128px cached site icon; visually verified to match the green dinosaur in the official https://www.ggrxiv.com/favicon.png, whose original is 2.94MB).
+- LitDigest: https://litdigest.app/favicon.ico (the original response is SVG, saved as litdigest.svg).
+- inveni: https://inveni.uk/favicon-96.png
+- PaperSwipe: https://paperswipe.co/icon-192.png (official response is 180px PNG; downloaded through Chromium because plain HTTP requests receive Vercel 429).
+- SOTA Papers: https://www.sotapapers.com/icon.svg?9994d72485676851
+- Uncited: https://uncited.org/icon.svg
+- Week in Papers: https://weekinpapers.com/icon.svg?icon.eaded252.svg
+- The Latest in AI: https://thelatestinai.com/favicon.svg
+- asXiv: https://asxiv.org/favicon.ico (the official icon is a question mark; downloaded through Chromium because plain HTTP requests receive Vercel 429).
+- Scry: https://scry.io/favicon.ico
+- PDFMathTranslate: https://pdf2zh.com/favicon.ico (the official hosted interface serves Gradio's SVG favicon, saved as pdf2zh.svg; this is its live site icon rather than a dedicated PDFMathTranslate brand mark).
+- ar5iv Editor (latexml.rs): https://latexml.rs/static/favicon.ico (official editor favicon, fetched in Chromium after the site's normal Anubis JavaScript challenge).
+- Astro arXiv Sanity: https://astro-arxiv-sanity.com/static/favicon.png
+- arXivSub: https://arxivsub.comfyai.app/favicon.ico
+- Paper Digest arXiv Daily: https://www.paperdigest.org/ui/dist/pd_circle.ico
+- ArXivTok: https://arxivtok.vercel.app/icon-192.png (official apple-touch icon, used instead of the site's larger 268KB ICO).
